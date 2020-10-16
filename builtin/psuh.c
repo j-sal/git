@@ -12,7 +12,18 @@ int cmd_psuh(int argc, const char **argv, const char *prefix)
 	const char *cfg_name;
 	int i;
 
-	printf(_("Another pony saying hello goes here!\n"));
+	printf(_("'Psuh'?\n"
+		 "Here's a Pony saying 'Uhm hello!' 		\n"
+		      " ___________				\n"
+		      "< uhm, hello >				\n"
+		      " -----------				\n"
+		      "        \\   n,,n			\n"
+		      "         \\  (oo)\\\\_____		\n"
+		      "            |__|\\\\      )\\\\		\n"
+		      "                ||-----|| \\\\		\n"
+		      "                ||     ||		\n"
+		      "	^^^^^^^^^^^^^^^^^^^^			\n"
+		      "				from nasamuffin's git\n"));
 
 	printf(Q_("\nYour args (there is %d):\n",
 		  "Your args (there are %d):\n",
